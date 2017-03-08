@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         constraintLayout = (ConstraintLayout) findViewById(R.id.main);
         constraintSet1.clone(constraintLayout);
         constraintSet2.clone(this, R.layout.activity_main2);
